@@ -11,7 +11,7 @@ use Text::VimColor;
 
 =head1 SYNOPSIS
 
-B<Achtung!>  You I<probably> want to just use the F<synrtf> command included
+B<Achtung!>  You I<probably> want to just use the L<synrtf> command included
 with this distribution.  If not, though...
 
   my $rtf_textref = RTF::VimColor->new->rtf_for_file(
