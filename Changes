@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+        - update packaging and metadata
+        - minimum required Perl is now v5.12
 
 0.001     2015-02-20 18:56:58-05:00 America/New_York
         - I wrote this in 2009 and realized it's useful so I should share it
