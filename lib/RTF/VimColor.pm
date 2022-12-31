@@ -52,6 +52,7 @@ sub rtf_for_file {
   my $syn = Text::VimColor->new(
     file => $filename,
     ($arg->{filetype} ? (filetype => $arg->{filetype}) : ()),
+    vim_let => { perl_sub_signatures => 1 },
   );
 
   my $rtf = RTF::Writer->new_to_string(\my $str);
